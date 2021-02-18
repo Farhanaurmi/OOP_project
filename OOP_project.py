@@ -56,7 +56,7 @@ for i in range (N):
 query_name=input('Enter name: ')
 query=user(dic)
 while(1):
-    number=int(input('\nEnter any number:\n1.Age and Class\n2.Student due\n3.Student grade\n4.Exit\n'))
+    number=int(input('\nEnter number:\n1.Age and Class\n2.Student due\n3.Student grade\n4.Exit\n'))
     if number==1:
         li=list(query.output())
         print(f'Age = {li[0]}\nClass = {li[1]}')
